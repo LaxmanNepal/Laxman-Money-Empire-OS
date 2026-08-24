@@ -4,49 +4,88 @@
 
 ## Mission
 
-Build a sustainable Nepal-focused digital business before the end of 2026, with YouTube monetization as an immediate milestone and owned web properties, products, services, and automation as the long-term business engine.
+Build a sustainable Nepal-focused digital business before the end of 2026, with **Laxman Nepal Official** as the primary attention engine and owned web assets, products, services and automation as the business engine.
 
-## Core principle
+## Open the command center
 
-**Attention → Trust → Owned Audience → Product → Revenue → Data → Better Decisions → More Attention.**
+- `dashboard/index.html` — premium iPhone-inspired glassmorphism command center.
+- `00-START-HERE/MASTER-OPERATING-SYSTEM.md` — operating rules.
+- `01-MASTER-ROADMAP/EMPIRE-PLAYBOOK.md` — business architecture.
+- `01-MASTER-ROADMAP/AUG-NOV-2026-EXECUTION-PLAN.md` — execution plan through November.
+- `02-YOUTUBE/laxman-nepal-official/CHANNEL-COMMAND-CENTER.md` — channel control room.
+- `02-YOUTUBE/laxman-nepal-official/NEPALI-AUDIENCE-CONTENT-STRATEGY.md` — Nepal-first positioning.
+- `02-YOUTUBE/MASTER-YOUTUBE-AUTOMATION.md` — content automation.
+- `02-YOUTUBE/laxman-nepal-official/MONETIZATION-TRACKER.md` — YPP and revenue tracking.
+- `03-FACEBOOK/FACEBOOK-AUTOMATION-PLAYBOOK.md` — Facebook distribution and monetization.
+- `05-BUSINESS/MONETIZATION-MATRIX.md` — revenue models.
+- `05-BUSINESS/100-MONEY-OPPORTUNITIES.md` — opportunity bank.
+- `06-AUTOMATION/AUTOMATION-BLUEPRINTS.md` — reusable automation architecture.
+- `07-PROMPT-VAULT/CORE-PROMPT-PACK.md` — high-leverage prompts.
+- `08-AI-COFOUNDER/WORKING-WITH-CHATGPT.md` — how to use ChatGPT as a technical/business cofounder.
+- `09-ANALYTICS/EMPIRE-KPI-SYSTEM.md` — KPI framework.
 
-This repository is not a collection of motivational notes. It is an operating system: strategy, prompts, experiments, metrics, automation blueprints, SOPs, and implementation plans.
+## Current YouTube baseline
 
-## Primary assets
+Latest connected snapshot: **657 subscribers, 45,696 lifetime views, 155 videos; +28 subscribers, +3,986 views and 4 videos in the latest 30 days.**
+
+The repository stores the baseline in `data/youtube/channel.json` and includes a GitHub Actions workflow for a daily public channel-stat snapshot using the YouTube Data API.
+
+## Business flywheel
+
+```text
+Research
+  ↓
+Content
+  ↓
+YouTube + Facebook
+  ↓
+Owned websites
+  ↓
+Tools / data / products
+  ↓
+Leads + sales + subscriptions
+  ↓
+Revenue
+  ↓
+Analytics
+  ↓
+Better decisions
+  ↺
+```
+
+## Core assets
 
 - YouTube: Laxman Nepal Official
-- Facebook pages/content ecosystem
+- Facebook content ecosystem
 - Nisulka Tools
 - Nepali-Patro
-- NEPSE/financial intelligence project
-- Gold-price/data automation
-- Other web apps and future digital products
+- NEPSE financial intelligence
+- Gold/data automation
+- Digital products
+- Future SaaS/services
 
-## Primary audience
+## Audience
 
-1. Nepali users in Nepal
-2. Nepali diaspora, including Gulf/Kuwait audiences where relevant
-3. Nepali creators, students, workers, small businesses, and technology users
-
-## 2026 priorities
-
-1. Make Laxman Nepal Official materially stronger and pursue YouTube monetization.
-2. Build a repeatable content factory for YouTube + Facebook + owned websites.
-3. Grow search traffic through useful tools and data products.
-4. Create at least one direct-revenue product rather than depending only on advertising.
-5. Instrument analytics so decisions are based on evidence.
+Primary: Nepali users in Nepal.
+Secondary: Nepali diaspora, including Gulf/Kuwait audiences where relevant.
 
 ## Non-negotiables
 
-- Never fabricate statistics, news, financial data, testimonials, or results.
-- Never store secrets, API keys, passwords, cookies, access tokens, or private credentials in this repository.
-- Verify licensing before redistributing media, TV streams, datasets, or third-party content.
-- AI-generated content must add real value and should not become repetitive low-value spam.
-- Financial content must clearly separate facts, calculations, assumptions, and opinions.
-- Optimize for sustainable trust, not short-term clicks.
+- Never fabricate statistics, news, financial data, testimonials or results.
+- Never store API keys, passwords, cookies, tokens or private credentials in Git.
+- Verify licensing before redistributing media, TV streams, datasets or third-party content.
+- AI content must provide original/useful value and must not become repetitive spam.
+- Financial content must distinguish data, calculations, assumptions and opinions.
+- Build distribution and monetization alongside software, not after it.
 
-## How to use this repository
+## YouTube monetization note
 
-Start with `00-START-HERE/MASTER-OPERATING-SYSTEM.md`, then execute `01-MASTER-ROADMAP/2026-MONETIZATION-MASTER-ROADMAP.md`.
+YouTube currently documents full YPP ad-revenue eligibility at 1,000 subscribers plus either 4,000 valid public watch hours in the previous 12 months or 10 million valid public Shorts views in the previous 90 days, subject to policy and account requirements. citeturn0search0turn0search10
 
-The prompt library is a tool, not the strategy. Use the decision frameworks and measurement systems before generating content.
+## Security
+
+The public repository intentionally contains no credentials. To activate the YouTube snapshot workflow, add a repository secret named `YOUTUBE_API_KEY`. Do not commit the key to source files.
+
+## Operating principle
+
+**Attention → Trust → Owned Audience → Product → Revenue → Data → Better Decisions → More Attention.**
