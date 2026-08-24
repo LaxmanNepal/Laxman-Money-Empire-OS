@@ -1,0 +1,21 @@
+{
+  "channel": "Laxman Nepal",
+  "channel_id": "UCFl4DYgZNA-XuFTTihh-l9w",
+  "country": "NP",
+  "default_language": "ne",
+  "snapshot_date": "2026-08-25",
+  "source": "connected channel analytics snapshot",
+  "subscribers": 657,
+  "lifetime_views": 45696,
+  "videos": 155,
+  "last_30_days": {
+    "subscribers_gained": 28,
+    "views_gained": 3986,
+    "videos_published": 4
+  },
+  "targets": {
+    "subscriber_target": 1000,
+    "full_ypp_watch_hours_target": 4000,
+    "full_ypp_shorts_views_target": 10000000
+  }
+}
